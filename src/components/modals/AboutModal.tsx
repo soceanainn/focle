@@ -22,7 +22,14 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           className="underline font-bold"
         >
            an bun-chluiche anseo
-        </a>.
+        </a>. Úsáidtear foinsí ó{' '}
+        <a
+            href="https://cadhan.com/lsg/"
+            className="underline font-bold"
+        >
+            cadhan.com
+        </a>
+        {' '} chun an stór fhocail a ghinúint.
       </p>
     </BaseModal>
   )

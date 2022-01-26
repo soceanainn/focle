@@ -46,6 +46,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500">
         Níl an litir 'I' in aon áit sa focal.
       </p>
+        <p className="text-sm text-gray-500">
+            Bíonn focal nua gach lá, fill amárach chun imirt arís!
+        </p>
     </BaseModal>
   )
 }
