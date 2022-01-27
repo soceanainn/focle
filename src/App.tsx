@@ -157,7 +157,7 @@ function App() {
         isOpen={isGameLost}
       />
       <Alert
-        message="Game copied to clipboard"
+        message="Cluiche curtha sa gearrthaisce"
         isOpen={shareComplete}
         variant="success"
       />
