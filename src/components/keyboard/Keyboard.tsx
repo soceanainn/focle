@@ -71,6 +71,7 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
         <Key width={65.4} value="ENTER" onClick={onClick}>
           Iontráil
         </Key>
+	<Key value="É" onClick={onClick} status={charStatuses['É']} />
         <Key value="C" onClick={onClick} status={charStatuses['C']} />
         <Key value="V" onClick={onClick} status={charStatuses['V']} />
         <Key value="B" onClick={onClick} status={charStatuses['B']} />
